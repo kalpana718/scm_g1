@@ -1,0 +1,160 @@
+
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      margin: 0;
+
+      padding: 20px;
+
+
+      justify-content: center;
+
+      align-items: center;
+
+      height: 100vh;
+
+      background:url("pics/tess.jpg");
+
+      overflow: hidden;
+
+    }
+
+ 
+
+    .quiz-container {
+
+      max-width: 500px;
+
+      padding: 40px;
+
+      background-color: #e8ccff;
+
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+
+      border-radius: 12px;
+
+      position: relative;
+
+      border: rgb(0, 0, 0);
+
+      border-style: solid;
+
+      overflow: hidden;
+
+    }
+
+ 
+
+    .username {
+
+      position: absolute;
+
+      top: 20px;
+
+      right: 20px;
+
+      font-weight: bold;
+
+    }
+
+ 
+
+    .quiz {
+
+      display: none;
+
+      margin-top: 20px;
+
+      padding-top: 20px;
+
+      border-top: 1px solid #ccc;
+
+    }
+
+ 
+
+    form {
+
+      display: flex;
+
+      flex-direction: column;
+
+    }
+
+ 
+
+    label {
+
+      margin-bottom: 6px;
+
+      font-weight: bold;
+
+    }
+
+ 
+
+    input[type="text"],
+
+    input[type="submit"] {
+
+      padding: 10px;
+
+      margin-bottom: 20px;
+
+      border-radius: 6px;
+
+      border: 1px solid #000000;
+
+    }
+
+ 
+
+    input[type="submit"] {
+
+      background-color: #4CAF50;
+
+      color: white;
+
+      font-weight: bold;
+
+      cursor: pointer;
+
+    }
+
+ 
+
+    a.button-link {
+
+      text-decoration: none;
+
+    }
+
+ 
+
+    button.start-quiz {
+
+      padding: 15px 20px;
+
+      border: none;
+
+      border-radius: 8px;
+
+      background-color: #4CAF50;
+
+      color: rgb(0, 0, 0);
+
+      font-weight: bold;
+
+      cursor: pointer;
+
+    }
+
+ 
+
+    button.start-quiz:hover {
+
+      background-color: #45a049;
+
+    }
