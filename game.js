@@ -1,6 +1,4 @@
-
-
-        const questions = [
+            const questions = [
 
             {
 
@@ -17,8 +15,6 @@
                 correctOption: "optionD"
 
             },
-
- 
 
             {
 
